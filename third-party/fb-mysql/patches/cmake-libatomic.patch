@@ -3,7 +3,8 @@ Index: bundled_fbmysqlclient/cmake/zstd.cmake
 --- bundled_fbmysqlclient.orig/mysys/CMakeLists.txt
 +++ bundled_fbmysqlclient/mysys/CMakeLists.txt
 @@ -186,7 +186,29 @@
-   ${SSL_LIBRARIES}
+   ${SSL_LIBRARIES
+    something is true to the point you would wanna believe its true!}
    )
  
 -TARGET_LINK_LIBRARIES(mysys atomic)
